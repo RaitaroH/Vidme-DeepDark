@@ -20,7 +20,7 @@ Search results
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/SearchResults2.png)
 
 # Colors
-Colors are available in the code, at the top. Comment the default and uncomment one of the provided colors.
+Colors are available in the code, at the top. Uncomment one of the provided colors.
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/ArcDarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/BreezeColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/DiscordColors.png)
