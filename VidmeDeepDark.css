@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.0*/
+/*1.0.1*/
 	
   /*Main color variables*/
 	:root
@@ -575,7 +575,8 @@
 	{
 		color: var(--main-color) !important;
  	}
-	.fa.fa-arrow-up:hover, .fa.fa-share:hover
+	/*Fixing hover for svgs in the video*/
+	.fa.fa-arrow-up:hover, .fa.fa-share:hover, .fa.fa-reddit-alien
 	{
 		color: var(--main-text) !important;
  	}
@@ -940,5 +941,67 @@
 	{
 		background-color: var(--second-background) !important;
 		border-color: transparent !important;
+	}
+
+	
+	/*Own channel bio*/
+	#user_view .user_info .alert, #user_view .alert
+	{
+		color: var(--dimer-text) !important;
+	}
+	#user_view .user_info .alert:hover
+	{
+		color: var(--main-color) !important;
+	}
+	/*Hover for friends*/
+	#user_view .user_friends .friend_username:hover
+	{
+		color: var(--main-color) !important;
+	}
+	#user_view .user_friends .friend_username
+	{
+		color: var(--main-text) !important;
+	}
+
+	
+	/*Settings*/
+	#settings .tabs, #settings > .inner
+	{
+		background-color: var(--second-background) !important;
+	}
+	#settings .tabs li.active > a, #settings .tabs li > a:hover, .alert-warning
+	{
+		background-color: var(--hover-background) !important;
+	}
+	#settings .tabs li.headline, #settings .form-group > label, .manage_page .manage_filters > span
+	{
+		color: var(--main-text) !important;
+	}
+	#settings .form-group > label .desc, #settings .form-alternative a, .alert-wrapper .alert, .manage_page .manage_filters .btn-xs, .manage_page .quota
+	{
+		color: var(--dimer-text) !important;
+	}
+	.alert-success, #settings .settings_items_add > a:hover, #settings .settings_blocklist a:hover, #settings .settings_friends a:hover, div.form-group:nth-child(14) > label:nth-child(1) > div:nth-child(1) > a:nth-child(1), #settings .form-alternative a:hover, .help > a:nth-child(1), .manage_page .manage_filters .btn-xs:hover
+	{
+		color: var(--main-color) !important;
+		background-color: transparent !important;
+	}
+	#settings .form-group
+	{
+		border-color: var(--hover-background) !important;
+	}
+	#settings .form-control:hover,#settings .form-control:active, #settings .form-control:focus, #settings .settings_items_add > a:hover
+	{
+		border-color: var(--main-color) !important;
+	}
+	/*Checked buttons*/
+	.form-checkbox input:checked + .form-icon, .form-radio input:checked + .form-icon
+	{
+		border-color: var(--main-color) !important;
+		background-color: transparent !important;
+	}
+	.form-switch input[type="checkbox"]:checked + .form-icon
+	{
+		background-color: var(--main-color) !important;
 	}
 }
