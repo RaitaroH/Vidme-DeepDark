@@ -1,2 +1,27 @@
 # Vidme-DeepDark
 Videos should only be watched in the dark. May the dark show your way. (Vid.me dark theme) 
+
+This is a dark theme for YouTube inspired by FT DeepDark https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search
+
+# Screenshots
+Channel page
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/ChannelPage.png)
+
+Video
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/Video.png)
+
+Comments
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/Comments.png)
+
+Search results
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/SearchResults1.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/SearchResults2.png)
+
+# Colors
+Colors are available in the code, at the top. Comment the default and uncomment one of the provided colors.
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/ArcDarkColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/BreezeColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/DiscordColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/FirefoxColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/VertexColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/YouTubeColors.png)
