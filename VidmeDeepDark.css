@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.1*/
+/*1.0.2*/
 	
   /*Main color variables*/
 	:root
@@ -228,7 +228,7 @@
 		color: var(--main-color) !important;
 	}
 	/*Dropdown menus*/
-	#video_view .video_actions_more .dropdown-menu
+	#video_view .video_actions_more .dropdown-menu, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus
 	{
 		background-color: var(--main-background) !important;
 	}
