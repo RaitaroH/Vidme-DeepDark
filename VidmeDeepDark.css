@@ -103,7 +103,7 @@
 	/*Outline for links*/
  	a
  	{
-     		outline-color: var(--main-color) !important;
+		outline-color: var(--main-color) !important;
 	}
    
 	
@@ -146,12 +146,12 @@
 	/*Sidebar button*/
 	.header.opaque .menu-hamburger > a 
 	{
-    opacity: .8 !important;
-    filter: invert(100%) !important;
+		opacity: .8 !important;
+		filter: invert(100%) !important;
   	}
-		.header.opaque .menu-hamburger > a:hover
+	.header.opaque .menu-hamburger > a:hover
 	{
-    opacity: 1 !important;
+		opacity: 1 !important;
   	}
 	/*Text in the header*/
 	.header.opaque .main-links > li > a, .header.opaque .menu > li > a
@@ -247,7 +247,7 @@
 	}
  	#video_view .video_actions a.action:hover svg
 	{
-    fill: var(--main-color) !important;
+		fill: var(--main-color) !important;
   	}
 
 	
@@ -517,7 +517,7 @@
 	}
 	.video-js .vjs-volume-level
 	{
-    background-color: var(--main-color) !important;
+		background-color: var(--main-color) !important;
 	}
 	
 	
@@ -569,15 +569,15 @@
 	/*Svg hover*/
 	.fa
 	{
-    color: var(--main-text) !important;
+		color: var(--main-text) !important;
  	}
 	.fa:hover 
 	{
-    color: var(--main-color) !important;
+		color: var(--main-color) !important;
  	}
 	.fa.fa-arrow-up:hover, .fa.fa-share:hover
 	{
-    color: var(--main-text) !important;
+		color: var(--main-text) !important;
  	}
 
 	/*Channel info*/
@@ -905,18 +905,18 @@
 	/*Watched videos*/
 	.videos_list > li.watched::before 
 	{
-    font-size: 14px;
-    padding: 4px 6px;
-    background-color: rgba(0,0,0,0.5);
-    font-weight: bold;
-    margin-bottom: 119px;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    align-items: left;
-    justify-content: left;
-    margin-right: 6px;
+		font-size: 14px;
+		padding: 4px 6px;
+		background-color: rgba(0,0,0,0.5);
+		font-weight: bold;
+		margin-bottom: 119px;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		align-items: left;
+		justify-content: left;
+		margin-right: 6px;
 	}
 
 	
