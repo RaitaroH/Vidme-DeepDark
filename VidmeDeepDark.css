@@ -627,7 +627,7 @@
 		filter:invert(100%);
 		opacity: .6 !important;
 	}
-	#user_view .user_header .user_actions a.btn img:hover
+	#user_view .user_header .user_actions a.btn img:hover, .videos_list .thumb_more > a img
 	{
 		opacity: 1 !important;
 	}
