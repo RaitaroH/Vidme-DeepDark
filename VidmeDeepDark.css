@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.6*/
+/*1.0.7*/
 	
   /*Main color variables*/
 	:root
@@ -83,6 +83,16 @@
 		--hover-background: #343434;
 		--main-text: #E1E1E1;
 		--dimer-text: #7F7F7F;
+		*/
+		
+		/*Mint-Y-Dark colors*/
+		/*
+		--main-color: #9AB87C;
+		--main-background: #2F2F2F;
+		--second-background: #383838;
+		--hover-background: #404040;
+		--main-text: #FFFFFF;
+		--dimer-text: #D5DADA;
 		*/
 	}
 	
