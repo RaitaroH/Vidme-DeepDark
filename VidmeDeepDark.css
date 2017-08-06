@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.3*/
+/*1.0.4*/
 	
   /*Main color variables*/
 	:root
@@ -849,25 +849,28 @@
 	{
 		opacity: .9 !important;
 	}
-	.notifications_list li
+	.notifications_list li, .notifications_list li a:not(.btn)
 	{
 		color: var(--main-text) !important;
 	}
-	.notification-dropdown
+	.notification-dropdown, .notifications_list li + li
 	{
 		background-color: var(--main-background) !important;
 		border-color: var(--hover-background) !important;
 	}
-	#user_view .user_header .user_actions a.user_notify.notified, #video_view .video_author_wrapper .btn.notified
+	#user_view .user_header .user_actions a.user_notify.notified, #video_view .video_author_wrapper .btn.notified, #video_view .video_author_wrapper .btn.user_notify
 	{
 		background-color: transparent !important;
 		border-color: transparent !important;
 	}
-	#user_view .user_header .user_actions a.user_notify.notified i.fa-bell, #video_view .video_author_wrapper .btn.user_notify.notified i.fa-bell
+	#user_view .user_header .user_actions a.user_notify.notified i.fa-bell, #video_view .video_author_wrapper .btn.user_notify.notified i.fa-bell, #video_view .video_author_wrapper .btn.user_notify:hover, .notifications_list li a:not(.btn):hover
 	{
 		color: var(--main-color) !important;
 	}
-	
+	.header.opaque .menu-notifications .notify-badge-anchor svg:hover
+	{
+		fill: var(--main-color) !important;
+	}
 	
 	/*Scrolling buttons*/
 	.pg-index .videos_shelf .scroll > a
