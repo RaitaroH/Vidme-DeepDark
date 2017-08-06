@@ -24,6 +24,7 @@ Colors are available in the code, at the top. Uncomment one of the provided colo
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/ArcDarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/BreezeColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/DiscordColors.png)
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/DeepDarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/FirefoxColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/VertexColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/YouTubeColors.png)
