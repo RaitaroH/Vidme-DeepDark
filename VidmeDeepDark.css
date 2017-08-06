@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.4*/
+/*1.0.5*/
 	
   /*Main color variables*/
 	:root
@@ -631,10 +631,17 @@
 	{
 		opacity: 1 !important;
 	}
-	
 	.alert-info
 	{
 		background-color: var(--hover-background) !important;
+	}
+	.videos_list > li .thumb_stat.thumb_watching
+	{
+		color: var(--main-color) !important;
+	}
+	.videos_list .thumb_more > a
+	{
+		filter: invert(100%);
 	}
 	
 	
@@ -915,6 +922,7 @@
 	.videos_list > li.watched::before 
 	{
 		font-size: 14px;
+		/*
 		padding: 4px 6px;
 		background-color: rgba(0,0,0,0.5);
 		font-weight: bold;
@@ -926,6 +934,7 @@
 		align-items: left;
 		justify-content: left;
 		margin-right: 6px;
+		*/
 	}
 
 	
