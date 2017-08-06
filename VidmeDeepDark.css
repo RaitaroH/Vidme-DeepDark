@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.5*/
+/*1.0.6*/
 	
   /*Main color variables*/
 	:root
@@ -576,7 +576,7 @@
 	{
 		color: var(--main-text) !important;
  	}
-	.fa:hover 
+	.fa:hover, #video_view .video_actions a.action:hover .text, .videos_list .thumb_vote > a:hover .num:not(.zero)
 	{
 		color: var(--main-color) !important;
  	}
@@ -585,6 +585,10 @@
 	{
 		color: var(--main-text) !important;
  	}
+	#video_view .video_actions a.action:hover svg
+	{
+		fill: var(--main-color) !important;
+	}
 
 	/*Channel info*/
 	#user_view .user_info, #user_view .user_friends
@@ -1101,5 +1105,12 @@
 	.vidme-widget > iframe:nth-child(1)
 	{
 		border-color: transparent !important;
+	}
+	
+	
+	/*Title hover*/
+	.videos_list > li:hover .thumb_title_label, #video_view .video_suggestions li:hover .title > a, #index .featured_users ul > li:hover .featured_users_label
+	{
+		color: var(--main-color) !important;
 	}
 }
