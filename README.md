@@ -5,7 +5,7 @@ This is a dark theme for YouTube inspired by [FT DeepDark](https://addons.mozill
 
 Also, credit where credit is due for the color paletts down bellow. ([@KDE](https://github.com/KDE) , [@horst3180](https://github.com/horst3180), [@linuxmint](https://github.com/linuxmint), [YouTube](wwww.youtube.com) and [Discord](https://discordapp.com/))
 
-Theme as userstyle [here](https://userstyles.org/styles/146161/vidme-deepdark)
+Theme as userstyle [here](https://userstyles.org/styles/146161/vidme-deepdark).
 
 # Screenshots
 Channel page
