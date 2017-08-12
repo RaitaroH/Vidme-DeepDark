@@ -1183,7 +1183,7 @@
 	{
 		opacity: 1 !important;
 	}
-	.videos_list .thumb_action > a:
+	.videos_list .thumb_action > a
 	{
 		border-color: var(--main-text) !important;
 	}
