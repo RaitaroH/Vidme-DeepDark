@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.8*/
+/*1.0.9*/
 	
   /*Main color variables*/
 	:root
@@ -125,7 +125,7 @@
 	
 	
 	/*Body*/
-	body.pg-video-view, .content_wrapper, body
+	body.pg-video-view, .content_wrapper, body, .main
 	{
 		background-color: var(--main-background) !important;
 	}
@@ -530,11 +530,11 @@
 	{
 		background: var(--main-color) !important;
 	}
-	.video-js .vjs-volume-level
+	.video-js .vjs-volume-level, .video-js .vjs-control-bar .vjs-sliding .vjs-play-progress:before
 	{
 		background-color: var(--main-color) !important;
 	}
-	
+
 	
 	/*Sidebar*/
 	.header_gutter
@@ -628,11 +628,11 @@
 		background-color: transparent !important;
 		color: var(--main-color) !important;		
 	}
-	#user_view .gutter .tipboard_username > a
+	#user_view .gutter .tipboard_username > a, #user_view .tipboard_username span
 	{
 		color: var(--dimer-text) !important;
 	}
-	#user_view .gutter .tipboard_username > a:hover
+	#user_view .gutter .tipboard_username > a:hover, #user_view .tipboard_username span:hover
 	{
 		color: var(--main-color) !important;
 	}
@@ -721,6 +721,7 @@
 		background-color: var(--main-color) !important;
 		color: var(--main-text) !important;
 	}
+	
 	
 	/*Main page*/
 	/*Create channel button*/
@@ -1119,8 +1120,175 @@
 	
 	
 	/*Title hover*/
-	.videos_list > li:hover .thumb_title_label, #video_view .video_suggestions li:hover .title > a, #index .featured_users ul > li:hover .featured_users_label
+	.videos_list > li:hover .thumb_title_label, #video_view .video_suggestions li:hover .title > a, #index .featured_users ul > li:hover .featured_users_label, .albums_list > li:hover .thumb_title_label
 	{
 		color: var(--main-color) !important;
 	}
+	
+
+	/*Rethemed channel page*/
+	.dashboard .section, .videos_list > li, .albums_list > li
+	{
+		background: var(--second-background) !important;
+		border-color: var(--hover-background) !important;
+	}
+	.dashboard_left, .dashboard .section + .section, #user_view .levels, #user_view .tipboard, .dashboard_main, #user_view .tabs_wrapper
+	{
+		border-color: var(--hover-background) !important;
+	}
+	#user_view .levels, #user_view .tipboard
+	{
+		color: var(--dimer-text) !important;
+	}
+	#user_view .levels .level_title, .albums_list > li .thumb_title_label
+	{
+		color: var(--main-text) !important;
+	}
+	#user_view .tipboard_sum
+	{
+		background-color: transparent !important;
+		color: var(--main-color) !important;		
+	}
+	/*New sub and follow buttons*/
+	#user_view .user_actions a.user_subscribe, #user_view .user_actions a.user_follow.following, #user_view .levels .level_button > a, .dashboard .prompt_follow ul .follow, .dashboard .prompt_follow .discover-button, #user_view .user_actions a.user_follow
+	{
+		background: transparent !important;
+		border: 1px solid var(--main-color) !important;
+		color: var(--main-color) !important;
+		opacity: .9;
+	}
+	#user_view .user_actions a.user_subscribe:hover, #user_view .user_actions a.user_follow.following:hover, #user_view .levels .level_button > a:hover, .dashboard .prompt_follow ul .follow:hover, .dashboard .prompt_follow .discover-button:hover, #user_view .user_actions a.user_follow:hover
+	{
+		opacity: 1 !important;
+		background-color: transparent !important;		
+	}
+	.dashboard .prompt_follow ul .follow
+	{
+		text-align: center !important;
+	}
+	.user_follow .fa-check, .user_subscribe .fa-check
+	{
+		color: var(--main-color) !important;
+	}
+	#user_view .user_vip, #user_view .user_featured
+	{
+		filter: grayscale(100%) !important;
+	}
+	#user_view .user_actions a.btn img
+	{
+		filter: invert(100%);
+		opacity: .6 !important;
+	}
+	#user_view .user_actions a.btn img:hover
+	{
+		opacity: 1 !important;
+	}
+	.videos_list .thumb_action > a:
+	{
+		border-color: var(--main-text) !important;
+	}
+	.videos_list .thumb_action > a:hover
+	{
+		border-color: var(--main-color) !important;
+	}
+	#user_view .user_actions a.user_notify.notified i.fa-bell
+	{
+		color: var(--main-color) !important;
+	}
+	#message-compose-modal .message-to
+	{
+		border-color: var(--hover-background) !important;
+		color: var(--main-text) !important;
+	}
+	#user_view .user_bio > a
+	{
+		color: var(--main-color) !important;
+		opacity: .9;
+	}
+	#user_view .user_bio > a:hover
+	{
+		opacity: 1 !important;
+	}
+	
+	
+	/*Retheme video page*/
+	#video_view .video_info, #video_view .gutter, #video_view .video_likes, #video_view .video_tips, #video_view .comments
+	{
+		border-color: var(--hover-background) !important;
+	}
+	
+	
+	/*My feed*/
+	.dashboard_title
+	{
+		background-color: var(--second-background) !important;
+	}
+	.dashboard_title, .dashboard_right
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.dashboard_title, .dashboard .dashboard_headline, .dashboard .prompt_follow ul .username, .dashboard .dashboard-menu li a, .dashboard_title .dashboard_sort .btn
+	{
+		color: var(--main-text) !important;
+	}
+	.dashboard p, .dashboard ol, .dashboard p a, .dashboard ol a
+	{
+		color: var(--dimer-text) !important;
+	}
+	.dashboard p a:hover, .dashboard ol a:hover, .dashboard .prompt_follow ul .username:hover, .dashboard .dashboard-menu li a:hover, .dashboard_title .dashboard_sort .btn:hover
+	{
+		color: var(--main-color) !important;
+	}
+	
+	
+	/*My watched later*/
+	.dashboard .inner .alert-wrapper
+	{
+		background-color: var(--hover-background) !important;
+	}
+	#album_view .album_video_add > a, #album_view .album_edit i
+	{
+		color: var(--main-color) !important;
+	}
+	#album_view .videos_list
+	{
+		border-color: var(--hover-background) !important;
+	}	
+	
+	
+	/*Browse creators*/
+	.dashboard .users_list
+	{
+		background-color: var(--second-background) !important;
+	}
+	
+	
+	/*Notifications*/
+	.notifications_list li.unread
+	{
+		background-color: var(--second-background) !important;
+	}
+	
+	
+	/*My videos*/
+	#settings .tabs_wrapper, #settings > .inner
+	{
+		border-color: var(--hover-background) !important;
+	}	
+	
+	
+	/*Upload*/
+	#uploader-modal .step1 > .upload-option
+	{
+		background-color: var(--hover-background) !important;
+	}
+	#uploader-modal .step1 > * span
+	{
+		color: var(--dimer-text) !important;
+	}
+	#uploader-modal .step1 > :hover span, .modal .modal-content a
+	{
+		color: var(--main-color) !important;
+	}
+	
 }
