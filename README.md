@@ -1,4 +1,5 @@
 # Vidme-DeepDark
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/Vidme%20-%20DeepDark.png)
 Videos should only be watched in the dark. May the dark show your way. (Vid.me dark theme) 
 
 This is a dark theme for YouTube inspired by [FT DeepDark](https://addons.mozilla.org/en-US/firefox/addon/ft-deepdark/?src=search).
