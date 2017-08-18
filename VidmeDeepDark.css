@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.1.0*/
+/*1.1.1*/
 	
   /*Main color variables*/
 	:root
@@ -1302,5 +1302,18 @@
 	#uploader-modal .step1 > :hover span, .modal .modal-content a
 	{
 		color: var(--main-color) !important;
+	}
+	/*Upload videos button*/
+	.dashboard .prompt_follow .discover-button, .dashboard .prompt_upload .upload-button
+	{
+		border-color: var(--main-color) !important;
+		color: var(--main-color) !important;
+		opacity: .9;
+	}
+	.dashboard .prompt_follow .discover-button:hover, .dashboard .prompt_upload .upload-button:hover
+	{
+		border-color: var(--main-color) !important;
+		color: var(--main-color) !important;
+		opacity: 1;
 	}
 }
