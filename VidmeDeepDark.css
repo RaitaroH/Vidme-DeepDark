@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.0.9*/
+/*1.1.0*/
 	
   /*Main color variables*/
 	:root
@@ -1241,6 +1241,7 @@
 	}
 	
 	
+	
 	/*My watched later*/
 	.dashboard .inner .alert-wrapper
 	{
@@ -1268,6 +1269,14 @@
 	{
 		background-color: var(--second-background) !important;
 	}
+	.users_list .user_notify
+	{
+		background-color: transparent !important;
+	}
+	.users_list .user_notify.notified i.fa-bell, .users_list .user_follow.following, .users_list .user_notify.notified
+	{
+		color: var(--main-color) !important;
+	}
 	
 	
 	/*My videos*/
@@ -1275,6 +1284,10 @@
 	{
 		border-color: var(--hover-background) !important;
 	}	
+	.dashboard .dashboard-menu 
+	{
+		background-color: var(--second-background) !important;
+	}
 	
 	
 	/*Upload*/
@@ -1290,5 +1303,4 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
 }
