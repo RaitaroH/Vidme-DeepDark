@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.1.1*/
+/*1.1.2*/
 	
   /*Main color variables*/
 	:root
@@ -1315,5 +1315,13 @@
 		border-color: var(--main-color) !important;
 		color: var(--main-color) !important;
 		opacity: 1;
+	}
+	
+	
+	/*Post comment*/
+	.comments_composer_submit .btn
+	{
+		border: 1px solid var(--main-color) !important;
+		color: var(--main-color) !important;
 	}
 }
