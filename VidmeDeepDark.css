@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.1.3*/
+/*1.1.4*/
 	
   /*Main color variables*/
 	:root
@@ -255,11 +255,6 @@
 	{
 		fill: var(--dimer-text) !important;
 	}
- 	#video_view .video_actions a.action:hover svg
-	{
-		fill: var(--main-color) !important;
-  	}
-
 	
 	
 	/*Video title*/
@@ -291,6 +286,7 @@
 		border-color: var(--main-color) !important;
 		color: var(--main-color) !important;
 		opacity: .9;
+		line-height: 20px;
 	}
 	.users_list .user_follow
 	{
@@ -1160,6 +1156,7 @@
 		border: 1px solid var(--main-color) !important;
 		color: var(--main-color) !important;
 		opacity: .9;
+		line-height: 20px;
 	}
 	#user_view .user_actions a.user_subscribe:hover, #user_view .user_actions a.user_follow.following:hover, #user_view .levels .level_button > a:hover, .dashboard .prompt_follow ul .follow:hover, .dashboard .prompt_follow .discover-button:hover, #user_view .user_actions a.user_follow:hover
 	{
@@ -1326,6 +1323,13 @@
 	.comments_composer_submit .btn
 	{
 		border: 1px solid var(--main-color) !important;
+		color: var(--main-color) !important;
+	}
+	
+	
+	/*Category hover*/
+	#video_view .video_category:hover .fa, .videos_list > li .thumb_unlisted i, .videos_list > li .thumb_channel i
+	{
 		color: var(--main-color) !important;
 	}
 }
