@@ -8,6 +8,8 @@ Also, credit where credit is due for the color palettes down bellow. ([@KDE](htt
 
 Theme as userstyle [here](https://userstyles.org/styles/146161/vidme-deepdark).
 
+### **You can also install all my themes at once from [here](https://github.com/RaitaroH/Import-All-Deepdark).**
+
 # Screenshots
 Channel page
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/ChannelPage.png)
