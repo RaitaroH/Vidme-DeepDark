@@ -2,7 +2,7 @@
 
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.1.4*/
+/*1.1.5*/
 	
   /*Main color variables*/
 	:root
@@ -1331,5 +1331,76 @@
 	#video_view .video_category:hover .fa, .videos_list > li .thumb_unlisted i, .videos_list > li .thumb_channel i
 	{
 		color: var(--main-color) !important;
+	}
+	
+	
+	/*No search results found*/
+	#search .alert-wrapper
+	{
+		background-color: var(--second-background) !important;
+	}
+	
+	
+	/*Add video to watch later*/
+	.modal .modal-desc
+	{
+		color: var(--dimer-text) !important;
+	}
+	.modal .form-group .input-group-addon
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.album-add-videos-modal ul.album-add-video-list
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.album-add-videos-modal .thumb + div
+	{
+		color: var(--main-text) !important;
+	}
+	.album-add-videos-modal ul.album-add-video-list li:hover
+	{
+		background-color: var(--hover-background) !important;
+	}
+	.album-add-videos-modal ul.album-add-video-list li:hover .thumb + div, .alert-warning
+	{
+		color: var(--main-color) !important;
+	}
+	.close
+	{
+		color: var(--main-text) !important;
+		opacity: 1 !important;
+		text-shadow: none !important;
+	}
+	.close:hover
+	{
+		color: var(--main-color) !important;
+		opacity: 1 !important;
+		text-shadow: none !important;
+	}
+	.btn-default
+	{
+		background-color: transparent !important;
+	}
+
+
+	/*Comments page*/
+	.comments_list .comment_video_title a
+	{
+		color: var(--dimer-text) !important;
+	}
+	.comments_list .comment_video_title a:hover
+	{
+		color: var(--main-color) !important;
+	}
+	.comments_list .comment_body a
+	{
+		color: var(--main-color) !important;
+		opacity: .9;
+	}
+	.comments_list .comment_body a:hover
+	{
+		color: var(--main-color) !important;
+		opacity: 1;
 	}
 }
