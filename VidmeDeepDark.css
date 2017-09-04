@@ -1,6 +1,6 @@
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.1.6*/
+/*1.1.7*/
 	
   /*Main color variables*/
 	:root
@@ -696,6 +696,10 @@
 	{
 		background-color: transparent !important;
 		color: var(--dimer-text) !important;
+	}
+	.videos_list .thumb_vote > a.active, .videos_list .thumb_share > a.active
+	{
+		border-color: var(--main-color) !important;
 	}
 	/*Icons hover*/
 	.videos_list > li .thumb_stat > a:hover, .thumb_stat.thumb_date:hover .videos_list > li .thumb_stat > a, .thumb_stat.thumb_date:hover .fa, .videos_list > li .thumb_stat:hover .fa,  .videos_list .thumb_vote:hover .fa
