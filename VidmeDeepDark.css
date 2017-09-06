@@ -1,6 +1,6 @@
 @-moz-document domain("vid.me") {
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-/*1.1.7*/
+/*1.1.8*/
 	
   /*Main color variables*/
 	:root
@@ -180,6 +180,7 @@
 	.header.opaque .search
 	{
 		border-color: var(--hover-background) !important;
+		background: var(--main-background) !important;
 	}
 	.header.opaque .search input
 	{
