@@ -34,3 +34,5 @@ Colors are available in the code, at the top. Uncomment one of the provided colo
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/Mint-Y-DarkColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/VertexColors.png)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/YouTubeColors.png)
+The next screenshot(s) display a newer vidme page layout. I didn't remake the above just for this.
+![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/9animeColors.png)
