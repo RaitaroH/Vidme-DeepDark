@@ -2,7 +2,7 @@
 	
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
 	
-/*1.1.9*/
+/*1.2.0*/
 	
 	/*Main color variables*/
 	:root
@@ -232,7 +232,10 @@
 	{
 		opacity: 1 !important;
 	}
-	
+	#video_view .dfp-unit-wrapper
+	{
+		background-color: var(--second-background) !important;
+	}
 	
 	/*Bellow video*/
   	#video_view .video_info3
@@ -1417,5 +1420,19 @@
 	{
 		color: var(--main-color) !important;
 		opacity: 1;
+	}
+	
+	/*Share video and report video*/
+	.modal .modal-subtitle, .embed-share-modal textarea.embed-code, .message
+	{
+		color: var(--dimer-text) !important;
+	}
+	.embed-share-modal textarea.embed-code, .embed-share-modal .timewidget-url.timewidget-url-wrapper
+	{
+		border-color: var(--hover-background) !important;
+	}
+	.btn-danger
+	{
+		color: #d43f3a !important;
 	}
 }
