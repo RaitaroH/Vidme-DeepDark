@@ -1,11 +1,11 @@
 @-moz-document domain("vid.me") {
-	
+
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
-	
+
 /*GNU General Public License v3.0*/
-	
+
 /*1.2.3*/
-	
+
 	/*Main color variables*/
 	:root
 	{
@@ -16,17 +16,17 @@
 		--hover-background: /*[[hoverBackground]]*/;
 		--main-text: /*[[mainText]]*/;
 		--dimer-text: /*[[dimerText]]*/;
-				
+
 		/*DeepDark colors*/
 		/*
 		--main-color: #00adee;
 		--main-background: #111111;
-		--second-background: #181818; 
+		--second-background: #181818;
 		--hover-background: #232323;
 		--main-text: #eff0f1;
 		--dimer-text: #CCCCCC;
 		*/
-		
+
 		/*KDE colors*/
 		/*
 		--main-color: #3DAEE9;
@@ -36,7 +36,7 @@
 		--main-text: #eff0f1;
 		--dimer-text: #bdc3c7;
 		*/
-				
+
 		/*Vertex Dark colors*/
 		/*
 		--main-color: #4080fb;
@@ -46,7 +46,7 @@
 		--main-text: #F3F3F5;
 		--dimer-text: #AEAFB0;
 		*/
-		
+
 		/*Arc Dark colors*/
 		/*
 		--main-color: #5294E2;
@@ -56,7 +56,7 @@
 		--main-text: #C1C8D1;
 		--dimer-text: #B3BAC5;
 		*/
-		
+
 		/*Firefox Dark colors*/
 		/*
 		--main-color: #5675B9;
@@ -66,7 +66,7 @@
 		--main-text: #E3EEF9;
 		--dimer-text: #606376;
 		*/
-		
+
 		/*Firefox57 Dark colors*/
 		/*
 		--main-color: #4080FB;
@@ -76,7 +76,7 @@
 		--main-text: #F9F9FA;
 		--dimer-text: #D0D0D0;
 		*/
-		
+
 		/*Discord colors*/
 		/*
 		--main-color: #7289DA;
@@ -86,7 +86,7 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #ADA8AA;
 		*/
-		
+
 		/*YouTube dark colors*/
 		/*
 		--main-color: #E52117;
@@ -96,7 +96,7 @@
 		--main-text: #E1E1E1;
 		--dimer-text: #7F7F7F;
 		*/
-		
+
 		/*Mint-Y-Dark colors*/
 		/*
 		--main-color: #9AB87C;
@@ -106,7 +106,7 @@
 		--main-text: #FFFFFF;
 		--dimer-text: #D5DADA;
 		*/
-		
+
 		/*9anime colors*/
 		/*
 		--main-color: #723f8c;
@@ -116,7 +116,7 @@
 		--main-text: #B4B4B4;
 		--dimer-text: #747474;
 		*/
-		
+
 		/*Black and white*/
 		/*
 		--main-color: #ffffff;
@@ -126,7 +126,7 @@
 		--main-text: #b4b4b4;
 		--dimer-text: #828282;
 		*/
-		
+
 		/*Yellow (colors from petrocompletions)*/
 		/*
 		--main-color: #FFC700;
@@ -136,7 +136,7 @@
 		--main-text: #EFF0F1;
 		--dimer-text: #9F9999;
 		*/
-		
+
 		/*Yellow 2*/
 		/*
 		--main-color: #ffc700;
@@ -146,27 +146,27 @@
 		--main-text: #fffdf5;
 		--dimer-text: #fff8e1;
 		*/
-		
+
 		/*Ubuntu grey colors*/
 		/*
 		--main-color: #EF7847;
 		--main-background: #312D2A;
-		--second-background: #3D3C38; 
+		--second-background: #3D3C38;
 		--hover-background: #59564D;
 		--main-text: #F2F1EF;
 		--dimer-text: #E6E5E3;
 		*/
-		
+
 		/*Ubuntu purple colors*/
 		/*
 		--main-color: #EF7847;
 		--main-background: #2C071A;
-		--second-background: #430B28; 
+		--second-background: #430B28;
 		--hover-background: #520D30;
 		--main-text: #F2F1EF;
 		--dimer-text: #E6E5E3;
 		*/
-		
+
 		/*Orange*/
 		/*
 		--main-color: #ff6905;
@@ -176,7 +176,7 @@
 		--main-text: #fff9f5;
 		--dimer-text: #ffede1;
 		*/
-		
+
 		/*Jisho 夜明け colors https://userstyles.org/styles/115621/jisho*/
 		/*
 		--main-color: #EF7D6C;
@@ -187,7 +187,7 @@
 		--dimer-text: #986E3F;
 		*/
 	}
-	
+
 
 	/*Changed text highlight*/
 	::selection
@@ -200,29 +200,29 @@
 		background: var(--main-color) !important;
 		color: var(--main-text) !important;
 	}
-	
-	
+
+
 	/*Outline for links*/
  	a
  	{
 		outline-color: var(--main-color) !important;
 	}
-   
-	
+
+
 	/**Removing text decorations*/
 	*
 	{
 		text-decoration: none !important;
 	}
-	
-	
+
+
 	/*Body*/
 	body.pg-video-view, .content_wrapper, body, .main
 	{
 		background-color: var(--main-background) !important;
 	}
-	
-	
+
+
 	/*Header*/
 	.header.opaque
 	{
@@ -244,9 +244,9 @@
 	.header a.logo > span.logo-black:hover, .header a.logo > span.logo-white:hover, .header_gutter .logo-gutter:hover
 	{
 		opacity: 1;
-	}	
+	}
 	/*Sidebar button*/
-	.header.opaque .menu-hamburger > a 
+	.header.opaque .menu-hamburger > a
 	{
 		opacity: .8 !important;
 		filter: invert(100%) !important;
@@ -284,8 +284,8 @@
 	{
 		border-color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Recommended videos sidebar*/
 	#video_view .video_suggestions
 	{
@@ -303,7 +303,7 @@
 	#video_view .video_suggestions .title > a:hover
 	{
 		color: var(--main-color) !important;
-	}	
+	}
 	/*Author*/
 	#video_view .video_suggestions .owner > a, .users_list .user_username
 	{
@@ -318,7 +318,7 @@
 	{
 		background-color: var(--second-background) !important;
 	}
-	
+
 	/*Bellow video*/
   	#video_view .video_info3
 	{
@@ -351,8 +351,8 @@
 	{
 		fill: var(--dimer-text) !important;
 	}
-	
-	
+
+
 	/*Video title*/
 	#video_view .video_info2
 	{
@@ -402,9 +402,9 @@
 	{
 		color: var(--main-color) !important;
 		opacity: 1 !important;
-	}	
-	
-	
+	}
+
+
 	/*Subscribe*/
 	#user_view .user_header .user_actions a.user_subscribe, #user_view .gutter .levels .level_button > a, #subscriptions_levels_view .levels .level_button > a, #video_view .video_subscribe .btn
 	{
@@ -416,7 +416,7 @@
 	#user_view .user_header .user_actions a.user_subscribe:hover, #user_view .gutter .levels .level_button > a:hover, #subscriptions_levels_view .levels .level_button > a:hover, #video_view .video_subscribe .btn:hover
 	{
 		opacity: 1 !important;
-		background-color: transparent !important;		
+		background-color: transparent !important;
 	}
 	#user_view .gutter .levels > li, #user_view .level_description_wrapper, #subscriptions_levels_view .levels > li
 	{
@@ -439,8 +439,8 @@
 		background-color: var(--hover-background) !important;
 		border-color: var(--hover-background) !important;
 	}
-	
-	
+
+
 	/*Description*/
 	#video_view .video_description_wrapper
 	{
@@ -477,9 +477,9 @@
 	#video_view .video_description a:hover
 	{
 		opacity: 1 !important;
-	}	
-	
-	
+	}
+
+
 	/*Tips*/
 	#video_view .video_likes, #video_view .video_tips
 	{
@@ -499,8 +499,8 @@
 	{
 		opacity: 1 !important;
 	}
-	
-	
+
+
 	/*Upvotes*/
 	.video_likes > ul .more a:hover
 	{
@@ -510,8 +510,8 @@
 	{
 		color: var(--dimer-text);
 	}
-	
-	
+
+
 	/*Coments*/
 	#video_view .comments
 	{
@@ -547,11 +547,11 @@
 	.comments_composer_input:hover, .comments_composer_input:active, .comments_composer_input:focus
 	{
 		border-color: var(--main-color) !important;
-	}	
+	}
 	.comments_composer_input textarea
 	{
 		color: var(--dimer-text) !important;
-	}	
+	}
 	/*Post button*/
 	.btn-info
 	{
@@ -562,7 +562,7 @@
 	.btn-info:hover, .btn-info:active, .btn-info:active:hover, .btn-info:focus
 	{
 		opacity: 1 !important;
-	}	
+	}
 	/*Commentor username*/
 	.comments_list .comment_author_username
 	{
@@ -585,19 +585,19 @@
 	.auto-tagged
 	{
 		color: var(--main-color) !important;
-		opacity: .9;		
+		opacity: .9;
 	}
 	.auto-tagged:hover
 	{
 		opacity: 1 !important;
-	}	
+	}
 	/*Heart icon*/
 	.comments_list .comment-subscriber > .self > .inner > .comment_inner > .comment_meta > .comment_author_username::after
 	{
 		filter: grayscale(100%) invert(100%);
 	}
-	
-	
+
+
 	/*Footer*/
 	.footer, .footer_static
 	{
@@ -612,9 +612,9 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
-	
+
+
+
 	/*Video*/
 	/*Progress bar*/
 	.video-js .vjs-progress-holder .vjs-play-progress
@@ -631,7 +631,7 @@
 		background-color: var(--main-color) !important;
 	}
 
-	
+
 	/*Sidebar*/
 	.header_gutter
 	{
@@ -653,9 +653,9 @@
 	.header_gutter_bottom > li > a:hover
 	{
 		color: var(--main-color) !important;
-	}	
-	
-	
+	}
+
+
 	/*Channel page*/
 	/*Channel info*/
 	#user_view .user_header, #user_view .cover, #user_view .user_header .avatar > a
@@ -670,13 +670,13 @@
 	#user_view .user_header .user_username
 	{
 		color: var(--main-color) !important;
-	}	
+	}
 	/*Badge*/
 	#user_view .user_header .user_featured
 	{
 		filter: grayscale(100%);
 	}
-	
+
 	/*Svg hover*/
 	.fa
 	{
@@ -722,7 +722,7 @@
 	#user_view .gutter .tipboard_sum
 	{
 		background-color: transparent !important;
-		color: var(--main-color) !important;		
+		color: var(--main-color) !important;
 	}
 	#user_view .gutter .tipboard_username > a, #user_view .tipboard_username span
 	{
@@ -753,8 +753,8 @@
 	{
 		filter: invert(100%);
 	}
-	
-	
+
+
 	/*Videos*/
 	#user_view .user_content, #user_view .tabs_wrapper
 	{
@@ -780,7 +780,7 @@
 	.videos_list > li .thumb_title_label:hover
 	{
 		color: var(--main-color) !important;
-	}	
+	}
 	.videos_list > li .thumb_author_username > a
 	{
 		color: var(--main-color) !important;
@@ -821,8 +821,8 @@
 		background-color: var(--main-color) !important;
 		color: var(--main-text) !important;
 	}
-	
-	
+
+
 	/*Main page*/
 	/*Create channel button*/
 	#index .uploadbutton, #index .newchannel, #index .get_started .btn
@@ -833,7 +833,7 @@
 	{
 		background: var(--hover-background) !important;
 		color: var(--main-color) !important;
-	}	
+	}
 	/*Icons*/
 	#index .features li, g
 	{
@@ -860,7 +860,7 @@
 	{
 		color: var(--main-text) !important;
 	}
-	#index .featured_users ul .featured_users_label	
+	#index .featured_users ul .featured_users_label
 	{
 		color: var(--main-text) !important;
 	}
@@ -868,8 +868,8 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Search results*/
 	.tabs-big-wrapper h1
 	{
@@ -877,11 +877,11 @@
 	}
 	.users_list .user_videos, .users_list .user_followers, .users_list .user_views, .users_list .user_tips
 	{
-		color: var(--dimer-text) !important;		
+		color: var(--dimer-text) !important;
 	}
 	.users_list .user_videos:hover, .users_list .user_followers:hover, .users_list .user_views:hover, .users_list .user_tips:hover, .users_list .user_videos:hover .fa, .users_list .user_followers:hover .fa, .users_list .user_views:hover .fa, .users_list .user_tips:hover .fa
 	{
-		color: var(--main-color) !important;		
+		color: var(--main-color) !important;
 	}
 	.tabs li.active a
 	{
@@ -902,7 +902,7 @@
 	{
 		opacity: 1 !important;
 	}
-	
+
 	/*Following*/
 	h1
 	{
@@ -920,7 +920,7 @@
 	{
 		color: var(--main-text) !important;
 	}
-	
+
 	/*Sign up*/
 	.modal-content
 	{
@@ -932,7 +932,7 @@
 	}
 	.modal .modal-title
 	{
-		color: var(--main-text) !important;	
+		color: var(--main-text) !important;
 	}
 	.modal-body .help, .social-auth .social-auth-or, input[type="text"], .form-control, .modal .modal-footer a:not(.btn)
 	{
@@ -946,7 +946,7 @@
 	.modal .form-control:hover, .modal .form-control:active, .modal .form-control:focus
 	{
 		border-color:  var(--main-color) !important;
-	}	
+	}
 	.modal .modal-footer .btn[type="submit"]
 	{
 		background: var(--main-color) !important;
@@ -960,8 +960,8 @@
 	{
 		border-color:  var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Notifications*/
 	.header .label-notifications, .header .label-follow-unread
 	{
@@ -993,7 +993,7 @@
 	{
 		fill: var(--main-color) !important;
 	}
-	
+
 	/*Scrolling buttons*/
 	.pg-index .videos_shelf .scroll > a
 	{
@@ -1004,15 +1004,15 @@
 		filter: invert(100%);
 		opacity: .5 !important;
 	}
-	
-	
+
+
 	/*Tiping*/
 	.tip-modal .price-breakdown .row .col
 	{
 		color: var(--main-text) !important;
 	}
-	
-	
+
+
 	/*Watch later*/
 	#album_view .album_video_add > a, #album_view .album_owner .album_owner_username
 	{
@@ -1031,10 +1031,10 @@
 	{
 		background-color: transparent !important;
 	}
-	
-	
+
+
 	/*Watched videos*/
-	.videos_list > li.watched::before 
+	.videos_list > li.watched::before
 	{
 		font-size: 14px;
 		/*
@@ -1052,7 +1052,7 @@
 		*/
 	}
 
-	
+
 	/*Add to album*/
 	.list-group-item, .album-video-add-modal .album_info.list-group
 	{
@@ -1066,8 +1066,8 @@
 	{
 		background-color: var(--hover-background) !important;
 	}
-	
-	
+
+
 	/*Edit album*/
 	.album-edit-videos-modal fieldset
 	{
@@ -1075,7 +1075,7 @@
 		border-color: transparent !important;
 	}
 
-	
+
 	/*Own channel bio*/
 	#user_view .user_info .alert, #user_view .alert
 	{
@@ -1095,7 +1095,7 @@
 		color: var(--main-text) !important;
 	}
 
-	
+
 	/*Settings*/
 	#settings .tabs, #settings > .inner
 	{
@@ -1136,8 +1136,8 @@
 	{
 		background-color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Messages*/
 	.messages-fragment, ul.threads > li.active-thread
 	{
@@ -1169,8 +1169,8 @@
 	{
 		opacity: 1;
 	}
-	
-	
+
+
 	/*About vidme and such*/
 	.about-body
 	{
@@ -1192,7 +1192,7 @@
 	p.answer:nth-child(4) > a:hover, p.question > a:hover, p.answer > a:hover, .about-body > ol > li > a:hover, .about-body > p > a:hover, ul.answer > li > a:hover, div.brand-logos > div > span > a:hover
 	{
 		opacity: 1;
-	}	
+	}
 	ul.answer:nth-child(3) > li:nth-child(11) > span:nth-child(1)
 	{
 		filter: grayscale(100%) !important;
@@ -1208,7 +1208,7 @@
 	.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td, .pg-help-widgets .widget_follow_code textarea
 	{
 		border-color: var(--hover-background) !important;
-	}	
+	}
 	.user_follow_button
 	{
 		background-color: transparent !important;
@@ -1217,14 +1217,14 @@
 	{
 		border-color: transparent !important;
 	}
-	
-	
+
+
 	/*Title hover*/
 	.videos_list > li:hover .thumb_title_label, #video_view .video_suggestions li:hover .title > a, #index .featured_users ul > li:hover .featured_users_label, .albums_list > li:hover .thumb_title_label
 	{
 		color: var(--main-color) !important;
 	}
-	
+
 
 	/*Rethemed channel page*/
 	.dashboard .section, .videos_list > li, .albums_list > li
@@ -1247,7 +1247,7 @@
 	#user_view .tipboard_sum
 	{
 		background-color: transparent !important;
-		color: var(--main-color) !important;		
+		color: var(--main-color) !important;
 	}
 	/*New sub and follow buttons*/
 	#user_view .user_actions a.user_subscribe, #user_view .user_actions a.user_follow.following, #user_view .levels .level_button > a, .dashboard .prompt_follow ul .follow, .dashboard .prompt_follow .discover-button, #user_view .user_actions a.user_follow
@@ -1261,7 +1261,7 @@
 	#user_view .user_actions a.user_subscribe:hover, #user_view .user_actions a.user_follow.following:hover, #user_view .levels .level_button > a:hover, .dashboard .prompt_follow ul .follow:hover, .dashboard .prompt_follow .discover-button:hover, #user_view .user_actions a.user_follow:hover
 	{
 		opacity: 1 !important;
-		background-color: transparent !important;		
+		background-color: transparent !important;
 	}
 	.dashboard .prompt_follow ul .follow
 	{
@@ -1310,15 +1310,15 @@
 	{
 		opacity: 1 !important;
 	}
-	
-	
+
+
 	/*Retheme video page*/
 	#video_view .video_info, #video_view .gutter, #video_view .video_likes, #video_view .video_tips, #video_view .comments
 	{
 		border-color: var(--hover-background) !important;
 	}
-	
-	
+
+
 	/*My feed*/
 	.dashboard_title
 	{
@@ -1340,9 +1340,9 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
-	
+
+
+
 	/*My watched later*/
 	.dashboard .inner .alert-wrapper
 	{
@@ -1355,16 +1355,16 @@
 	#album_view .videos_list
 	{
 		border-color: var(--hover-background) !important;
-	}	
-	
-	
+	}
+
+
 	/*Browse creators*/
 	.dashboard .users_list
 	{
 		background-color: var(--second-background) !important;
 	}
-	
-	
+
+
 	/*Notifications*/
 	.notifications_list li.unread
 	{
@@ -1378,19 +1378,19 @@
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*My videos*/
 	#settings .tabs_wrapper, #settings > .inner
 	{
 		border-color: var(--hover-background) !important;
-	}	
-	.dashboard .dashboard-menu 
+	}
+	.dashboard .dashboard-menu
 	{
 		background-color: var(--second-background) !important;
 	}
-	
-	
+
+
 	/*Upload*/
 	#uploader-modal .step1 > .upload-option
 	{
@@ -1417,30 +1417,30 @@
 		color: var(--main-color) !important;
 		opacity: 1;
 	}
-	
-	
+
+
 	/*Post comment*/
 	.comments_composer_submit .btn
 	{
 		border: 1px solid var(--main-color) !important;
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*Category hover*/
 	#video_view .video_category:hover .fa, .videos_list > li .thumb_unlisted i, .videos_list > li .thumb_channel i
 	{
 		color: var(--main-color) !important;
 	}
-	
-	
+
+
 	/*No search results found*/
 	#search .alert-wrapper
 	{
 		background-color: var(--second-background) !important;
 	}
-	
-	
+
+
 	/*Add video to watch later*/
 	.modal .modal-desc
 	{
@@ -1503,7 +1503,7 @@
 		color: var(--main-color) !important;
 		opacity: 1;
 	}
-	
+
 	/*Share video and report video*/
 	.modal .modal-subtitle, .embed-share-modal textarea.embed-code, .message
 	{
