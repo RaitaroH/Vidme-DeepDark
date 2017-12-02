@@ -4,7 +4,7 @@
 @homepageURL https://github.com/RaitaroH/Vidme-DeepDark
 @version 1.2.4
 @updateURL https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.user.css
-@description Vidme dark theme
+@description Vidme dark theme (sad to see vidme being suspended)
 @author RaitaroH
 @license GNU-V3.0
 
@@ -132,6 +132,8 @@
 ==/UserStyle== */
 
 @-moz-document domain("vid.me") {
+
+/*Sad to see vidme being suspended*/
 
 /*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
 
