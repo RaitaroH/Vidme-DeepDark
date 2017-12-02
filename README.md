@@ -1,4 +1,4 @@
-# Vidme-DeepDark
+# Vidme-DeepDark (sad to see vidme being suspended)
 ![alt tag](https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/Vidme%20-%20DeepDark.png)
 Videos should only be watched in the dark. May the dark be kinder on thine eyes. (Vid.me dark theme) 
 
