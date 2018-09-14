@@ -370,7 +370,7 @@
 	/*Logo*/
 	.header a.logo .logo-black, .header_gutter .logo-gutter
 	{
-		background-image: url("https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/raw/master/Images/logo-white.png") !important;
+		background-image: url("https://gitlab.com/RaitaroH/Vidme-DeepDark/raw/master/Images/logo-white.png") !important;
 	}
 	.header a.logo > span.logo-black, .header a.logo > span.logo-white, .header_gutter .logo-gutter
 	{
