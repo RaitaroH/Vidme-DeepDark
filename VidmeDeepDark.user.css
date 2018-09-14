@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name Vidme DeepDark
-@namespace github.com/RaitaroH/Vidme-DeepDark
-@homepageURL https://github.com/RaitaroH/Vidme-DeepDark
+@namespace gitlab.com/RaitaroH/Vidme-DeepDark
+@homepageURL https://gitlab.com/RaitaroH/Vidme-DeepDark
 @version 1.2.4
-@updateURL https://rawgit.com/RaitaroH/Vidme-DeepDark/master/VidmeDeepDark.user.css
+@updateURL https://gitlab.com/RaitaroH/Vidme-DeepDark/raw/master/VidmeDeepDark.user.css
 @description Videos should only be watched in the dark. May the dark be kinder on thine eyes. (Vid.me dark theme) 
 @author RaitaroH
 @license GNU-V3.0
@@ -135,7 +135,7 @@
 
 /*Sad to see vidme being suspended*/
 
-/*Theme made by RaitaroH @https://github.com/RaitaroH/Vidme-DeepDark*/
+/*Theme made by RaitaroH @https://gitlab.com/RaitaroH/Vidme-DeepDark*/
 
 /*GNU General Public License v3.0*/
 
@@ -370,7 +370,7 @@
 	/*Logo*/
 	.header a.logo .logo-black, .header_gutter .logo-gutter
 	{
-		background-image: url("https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/master/Images/logo-white.png") !important;
+		background-image: url("https://raw.githubusercontent.com/RaitaroH/Vidme-DeepDark/raw/master/Images/logo-white.png") !important;
 	}
 	.header a.logo > span.logo-black, .header a.logo > span.logo-white, .header_gutter .logo-gutter
 	{
